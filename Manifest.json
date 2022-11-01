@@ -9,13 +9,11 @@
     "16": "mdn16.png"
   },
   "browser_action": {
-    "default_icon": "mdn16.png",
-    "default_popup": "popup.html"
+    "default_icon": "mdn16.png"
   },
   "background": {
     "scripts": ["eventPage.js"],
     "persistent": false
   },
-  "permissions": ["storage", "notifications", "contextMenus"],
-  "options_page": "options.html"
+  "permissions": ["contextMenus"]
 }

@@ -1,18 +1,9 @@
 var menuItem = {
-  id: "Search",
+  id: "search123",
   title: "Search on MDN",
   contexts: ["selection"],
 };
 
-function isInt(value) {
-  return (
-    !isNaN(value) &&
-    parseInt(Number(value)) == value &&
-    !isNaN(parseInt(value, 10))
-  );
-}
-
-chrome.contextMenus.create(menuItem);
 const url = "https://mdn.io/";
 function goto(info) {
   console.log(info);
